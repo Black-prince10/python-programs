@@ -12,9 +12,6 @@ while temp>0:
 	digit =temp%10 
 	sum+=digit**3
 	temp //= 10
-	print(sum)  
-	print(temp)
-print(temp)
 if num == sum:
 	print(num,"is an Armstrong number!")
 else:
