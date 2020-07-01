@@ -1,5 +1,7 @@
 '''
 In this program, we need to print all disarium numbers between 1 and 100 
+A number is said to be the Disarium number when the sum of its digit raised to the power of their 
+respective positions becomes equal to the number itself.
 '''
 sum=0
 for num in range(1,101):
