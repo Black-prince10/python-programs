@@ -8,10 +8,10 @@ arr = [10,20,30,40,50,60,70]
 n = 1 #change value to mess arround 
 print("Original array:",arr)
 for i in range(0,n):
-	last_element=arr[-1]
+	last_element = arr[-1]
 	for j in range(len(arr)-1,-1,-1):
-		arr[j]=arr[j-1]
-	arr[0]=last_element	
+		arr[j] = arr[j-1]
+	arr[0] = last_element	
 print("Array after right rotation:",arr)
     
 

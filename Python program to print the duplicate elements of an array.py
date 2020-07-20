@@ -7,7 +7,7 @@ arr = [10,20,30,40,50,60,70,10,20,60,50,52,65]
 print("duplicated elements: ")
 for i in range(0,len(arr)):
 	for j in range(i+1,len(arr)):
-		if arr[i]==arr[j]:
+		if arr[i] == arr[j]:
 			print(i)
 
 

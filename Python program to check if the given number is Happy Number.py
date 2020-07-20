@@ -8,24 +8,23 @@ Number = 32
 1² + 3² = 10
 1² + 0² = 1
 '''
-num =int(input("Enter a number:"))
+num = int(input("Enter a number:"))
+
 def HappyNumber(num):
-	remainder=0
-	sum=0
-	while num>0:
-		remainder=num%10
-		sum+=remainder**2
-		num//=10
+	remainder = 0 
+	sum = 0
+	while num > 0:
+		remainder = num%10
+		sum += remainder**2
+		num //= 10
 	return sum
-
-result =num 
-
+result = num
 while result!=1 and result!=4:
-	result =HappyNumber(result)
+	result = HappyNumber(result)
 
-if result==1:
+if result == 1:
 	print(num,"is a happy number!")
-elif result==4:
+elif result == 4:
 	print(num,"is unhappy number!")
 
 

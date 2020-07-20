@@ -16,21 +16,25 @@ Common multiples of 4 and 6 are simply the numbers that are in both lists:
 ->LCM is the lowest common multiplier so it is 12.
 '''
 print("Python Program to Find LCM:")
-num1=int(input("The first number :"))
-num2=int(input("The second number:"))
+num1 = int(input("The first number :"))
+num2 = int(input("The second number:"))
 
 def lcm(x,y):
-	if x>y:
-		greater=x
+	if x > y:
+		greater = x
 	else:
-	    greater=y
+	    greater = y
 	while True:
-		if (greater%x==0) and (greater%y==0):
+		if (greater%x == 0) and (greater%y == 0):
 			lcm =greater 
 			break
-		greater+=1
+		greater += 1
 	return lcm		
 print("The L.C.M of:",num1,"and",num2,"is",lcm(num1,num2))	    	
+
+
+
+
 
 
 

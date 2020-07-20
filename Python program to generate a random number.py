@@ -7,8 +7,8 @@ random.randint(a,b)
 '''
 import random 
 print("Enter the values of the range you are interested in:")
-a=int(input("Enter the first value :")) 
-b=int(input("Enter the second value:"))
+a = int(input("Enter the first value :")) 
+b = int(input("Enter the second value:"))
 print(random.randint(a,b))
 
 

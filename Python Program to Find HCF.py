@@ -13,16 +13,16 @@ The divisors of 12 are:
 1, 2, 3, 4, 6, 12  
 HCF /GCD is the greatest common divisor. So HCF of 8 and 12 are 4.
 '''
-num1=int(input("Enter first number:"))
-num2=int(input("Enter second number:"))
+num1 = int(input("Enter first number:"))
+num2 = int(input("Enter second number:"))
 def hcf(x,y):
-	if x>y:
-		smaller =y
+	if x > y:
+		smaller = y
 	else:
-	    smaller =x
+	    smaller = x
 	for i in range(1,smaller+1):
-		if x%i==0 and y%i==0: 
-			hcf=i
+		if x%i == 0 and y%i == 0: 
+			hcf = i
 	return hcf 
 print("H.C.F of ",num1,"and",num2,"is",hcf(num1,num2))
 			

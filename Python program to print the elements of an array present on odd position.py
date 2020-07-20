@@ -7,8 +7,8 @@ arr = [10,20,30,40,50,60,70]
 print("Elements present on odd positions:")
 for i in range(1,len(arr),2):
 	print(arr[i])
-max =0
+max = 0
 for o in range(0,len(arr)):
-	if arr[o]>max:
-		max=arr[o]
+	if arr[o] > max:
+		max = arr[o]
 print(max)

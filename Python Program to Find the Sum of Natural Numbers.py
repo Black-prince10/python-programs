@@ -6,14 +6,14 @@ Some mathematicians think that a natural number must contain 0 and some don't be
 theory.
 '''	
 num = int(input("Enter a number:"))
-if num<0:
+if num < 0:
 	print("Enter a positive number!")
 else:
-	sum=0
+	sum = 0
 	#use while loop to iterate until zero
-	while num>0:
-		sum+=num
-		num-=1
+	while num > 0:
+		sum += num
+		num -= 1
 	print("The sum is",sum)
 
 

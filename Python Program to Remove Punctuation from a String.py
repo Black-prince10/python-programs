@@ -9,16 +9,16 @@ See this example:
 This program is written to remove punctuation from a statement
 '''
 #define punctuation 
-punctuation ='''''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+punctuation = '''''!()-[]{};:'"\,<>./?@#$%^&*_~'''
 
 #take input from the user 
-string_txt=input("Enter a string:")
+string_txt = input("Enter a string:")
 
 #removing the punctuation from the string 
-no_punc=""
+no_punc = ""
 for ch in string_txt:
 	if ch not in punctuation:
-	    no_punc+=ch 
+	    no_punc += ch 
 
 #displaying  new string 
 print(no_punc)

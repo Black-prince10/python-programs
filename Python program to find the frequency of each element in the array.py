@@ -15,17 +15,17 @@ if a duplicate element is found in the second loop since we have counted this el
 it again. Mark this element as visited by setting fr[j] = visited. Store count of each element to fr.
 STEP 6: Finally, print out the element along with its frequency.
 '''
-arr=[1, 2, 8, 8,3,3, 2, 2,1, 2, 5, 1]
-fr =[None]*len(arr)
-visited =-1
+arr = [1, 2, 8, 8,3,3, 2, 2,1, 2, 5, 1]
+fr = [None]*len(arr)
+visited =- 1
 for i in range(0,len(arr)):
-	count=1
+	count = 1
 	for j in range(i+1,len(arr)):
-		if arr[i]==arr[j]:
-			count+=1
-			fr[j]=visited
-	if fr[i]!=visited:
-	    fr[i]=count		
+		if arr[i] == arr[j]:
+			count += 1
+			fr[j] = visited
+	if fr[i]!= visited:
+	    fr[i] = count		
 for i in range(0,len(arr)):
-    if fr[i]!=visited:
+    if fr[i] != visited:
         print("element:",arr[i],"frequency:",fr[i])	    

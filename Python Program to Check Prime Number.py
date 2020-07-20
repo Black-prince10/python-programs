@@ -8,14 +8,12 @@ Composite number:
 Other natural numbers that are not prime numbers are called composite numbers.
 For example: 4, 6, 9 etc. are composite numbers.
 '''
-print("Python Program to Check Prime Number:")
-
-num=int(input("Enter a number:"))
+num = int(input("Enter a number:"))
 
 
-if num >1:
+if num > 1:
    for i in range(2,num):
-   	  if (num % i) ==0:
+   	  if (num % i) == 0:
    	  	print(num,"is not a prime number!")
    	  	print(i,"x",num//i,"=",num)
    	  	break

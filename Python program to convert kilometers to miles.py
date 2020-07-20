@@ -13,10 +13,10 @@ Conversion formula:
 '''
 print("Python program to convert kilometers to miles:")
 #collecting input from the user 
-kilometers=float(input("kilometers: ")) 
-conv_fac=0.621371
+kilometers = float(input("kilometers: ")) 
+conv_fac = 0.621371
 #calculate miles 
-miles=kilometers * conv_fac
+miles = kilometers * conv_fac
 print("%0.3f is equal to %0.3f"%(kilometers,miles))	
 	
 

@@ -13,10 +13,10 @@ T(℉) = T(℃) x 1.8 + 32
 '''
 print("Python program to convert Celsius to Fahrenheit:")	
 #Collect input from the user 
-celsius =float(input("Enter temperature in Celsius:"))
+celsius = float(input("Enter temperature in Celsius:"))
 
 #Calculate temperature in fahrenheit 
-fahrenheit=(celsius*1.8)+32
+fahrenheit = (celsius*1.8) + 32
 print("%0.1f Celsius is equal to %0.1f degree fahrenheit."%(celsius,fahrenheit)) 
 
 
